@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+   - name: raw
+     schema: tillerdataset
+     tables:
+      - name: order
+        identifier: order_data
+      - name: order_line
+        identifier: order_line
+      - name: payment
+        identifier: payment_data
+      - name: store
+        identifier: store_data
+    
+
